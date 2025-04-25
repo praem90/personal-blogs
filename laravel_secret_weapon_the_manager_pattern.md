@@ -39,13 +39,13 @@ Laravel's Adoption of the Manager Pattern:
 
 Laravel's core is heavily reliant on the Manager Pattern. You see it in action with:
 
-- Authentication (Auth): Drivers like database, eloquent.
-- Caching (Cache): Drivers like file, redis, memcached, apc.
-- Sessions (Session): Drivers like file, database, cookie, redis.
-- Databases (Database): Drivers like mysql, pgsql, sqlite, sqlsrv.
-- Queues (Queue): Drivers like sync, database, redis, beanstalkd, sqs.
-- Filesystems (Storage): Drivers like local, s3, ftp, sftp.
-- Mail (Mail): Drivers like smtp, mailgun, ses, sendmail.
+- **Authentication (Auth)**: Drivers like database, eloquent.
+- **Caching (Cache)**: Drivers like file, redis, memcached, apc.
+- **Sessions (Session)**: Drivers like file, database, cookie, redis.
+- **Databases (Database)**: Drivers like mysql, pgsql, sqlite, sqlsrv.
+- **Queues (Queue)**: Drivers like sync, database, redis, beanstalkd, sqs.
+- **Filesystems (Storage)**: Drivers like local, s3, ftp, sftp.
+- **Mail (Mail)**: Drivers like smtp, mailgun, ses, sendmail.
 ... and more!
 
 This pervasive use highlights how fundamental the Manager Pattern is to Laravel's design philosophy, enabling
@@ -71,7 +71,7 @@ Driver Flexibility:
 Laravel's configuration-driven approach makes it incredibly easy to switch between different service implementations.
 
 
-For instance, changing your application's caching mechanism from storing files to using Redis is often as simple as modifying a single configuration value in config/cache.php:
+For instance, changing your application's caching mechanism from storing files to using Redis is often as simple as modifying a single configuration value in `config/cache.php`:
 
 <!-- end_slide -->
 
@@ -80,7 +80,6 @@ Driver Flexibility:
 
 ```php {4|6-19|7-10|12-17}
 <?php
-// config/cache.php
 return [
     'default' => env('CACHE_DRIVER', 'file'),
 
