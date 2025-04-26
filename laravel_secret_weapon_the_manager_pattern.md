@@ -77,9 +77,8 @@ For instance, changing your application's caching mechanism from storing files t
 
 Driver Flexibility:
 ===
-
-```php {4|6-19|7-10|12-17}
-<?php
+```php {1-19|3|5-18|6-9|11-16}
+<?php // config/cache.php
 return [
     'default' => env('CACHE_DRIVER', 'file'),
 
