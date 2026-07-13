@@ -167,9 +167,9 @@ Putting It All Together
 
 <!-- end_slide -->
 
-Architectural Decisions Matrix
+From Concept to Completion: Key Decisions in Architecture
 ===
-* Every architectural shift was driven by a concrete constraint: performance, distribution size, or user experience.
+Every architectural shift was driven by a concrete constraint: performance, distribution size, or user experience.
 
 | The Component | Initial Approach | Final Architecture | The Core Reason |
 | :--- | :--- | :--- | :--- |
