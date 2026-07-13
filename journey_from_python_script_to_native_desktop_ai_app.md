@@ -138,7 +138,10 @@ The End Game: Rust All The Things
 
 Putting It All Together
 ===
- * **The Engineering Reality:** Faced highly limited documentation, strict compiler type systems, and heavy async engineering.
+ * **The Engineering Reality:** 
+   * Highly limited documentation 
+   * Strict compiler type systems
+   * Heavy async engineering.
  * **The Result:** A highly efficient, single-binary application.
 
  ```text
