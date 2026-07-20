@@ -8,33 +8,53 @@ theme:
 
 The Motivation
 ===
+<!-- column_layout: [1,4,1] -->
+<!-- column: 0 -->
+<!-- column: 1 -->
  * **The Goal:** Build a new Micro-SaaS product.
  * **The Foundation:** Leverage prior experience with Live Streaming solutions.
  * **The Spark:** Deep curiosity to learn and apply AI in a highly practical way.
  * **The Formula:** Chose Media as the Domain and AI as the Tool to solve real problems.
+<!-- column: 2 -->
+<!-- reset_layout -->
+
+<!-- pause -->
+![](motivation.jpeg)
 
 <!-- end_slide -->
 
 The Problem: The "Flashback" Nightmare
 ===
+<!-- column_layout: [1,4,1] -->
+<!-- column: 0 -->
+<!-- column: 1 -->
  * Spoke directly with a professional **TV Serial Content Editor**.
  * **The Pain:** Finding an old scene from a TV serial across dozens of unindexed, dusty hard drives is incredibly tedious.
  * **The Workflow:** 
    * Plug in multiple physical drives.
    * Open massive, proprietary video files one by one.
    * Manually scrub timelines looking for a single scene.
+<!-- column: 2 -->
+
+<!-- reset_layout -->
+
+![](can-you.jpg)
 
 <!-- speaker_note: Insert the "billion dollar idea" meme here -->
 <!-- end_slide -->
 
 The Solution: Semantic Video Search
 ===
+<!-- column_layout: [1,4,1] -->
+<!-- column: 0 -->
+<!-- column: 1 -->
  * **RAG-Powered:** Build a semantic video search engine that indexes content via description rather than static tags.
  * **High Performance:** Must handle large video files locally and provide sub-second search results.
  * **Privacy First:** Video files are large and proprietary; cloud uploads are a complete dealbreaker.
  * **Visual Context:** Generate instant thumbnails for search results to quickly identify the scene.
  * **Physical Asset Mapping:** Must tag matches with the physical hard disk name and file path.
  * **Workflow Integrated:** Support direct drag-and-drop into standard video editing software.
+<!-- column: 2 -->
 
 <!-- speaker_note: Insert the "rukko jara" meme here -->
 <!-- end_slide -->
@@ -45,20 +65,24 @@ The MVP: The Elegant Python Hack
  * **Why LanceDB?** Serverless, embedded vector DB (like SQLite for vectors). No heavy server infrastructure required.
  * **The Execution:** Lives completely in a terminal, lists matching timestamps, and renders frames using an OpenCV window.
 
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
  ```text
  [ Indexing Phase ]
- Video File ---> Parse Frames ---> CLIP ViT Model ---> Vector DB
+ Video File ---> Parse Frames ---> CLIP ViT Model
+                                        |
+                                        V 
+                                    Vector DB
 
  [ Search Phase ]
- Text Query ---> CLIP Text Model ---> Cosine Similarity Check ---> Vector DB
-                                                                       |
-                                                                       v
-                                                              Timestamps Found
-                                                                       |
-                                                                       v
-                                                              OpenCV Render Loop
+ Text Query ---> CLIP Text Model ---> Cosine Similarity 
+                                            |
+                                            V 
+                                     OpenCV Render Loop
  ```
 
+<!-- column: 1 -->
  ```text
  +-------------------+
  |    Video File     |
