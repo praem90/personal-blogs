@@ -1,7 +1,8 @@
 ---
 title: "Journey from Python Script to Native Desktop AI App"
 sub_title: "Semantic Video Search for Video Editors"
-author: "Mohan Raj M (@praem90)"
+author: "Mohan Raj M (@praem90) - Quartzy, Inc."
+location: https://github.com/praem90/clip-finder
 theme:
   name: terminal-dark
 ---
@@ -18,8 +19,6 @@ The Motivation
 <!-- column: 2 -->
 <!-- reset_layout -->
 
-<!-- pause -->
-![](motivation.jpeg)
 
 <!-- end_slide -->
 
@@ -38,9 +37,7 @@ The Problem: The "Flashback" Nightmare
 
 <!-- reset_layout -->
 
-![](can-you.jpg)
 
-<!-- speaker_note: Insert the "billion dollar idea" meme here -->
 <!-- end_slide -->
 
 The Solution: Semantic Video Search
