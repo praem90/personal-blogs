@@ -57,10 +57,19 @@ Damage -. Yes .-> Pick
 Damage -. No .-> E
 ```
 
-The color preference would be feedforward information.
-The damage check is a feedback loop.
 
 ## How to build my Harness? 
+
+The color preference would be feedforward information. - Guide
+The damage check is a feedback loop. - Sensor
+
+You should not instruct the agent to buy a blue color hat. 
+You should provide the environment, principle and guidelines
+The should take the decision
+
+
+
+
 
 ## How to scale it to Org?
 
