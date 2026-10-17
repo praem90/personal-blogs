@@ -69,16 +69,25 @@ The should take the decision
 
 https://martinfowler.com/articles/harness-engineering/harness-overview.png
 
-
-
-## How to scale it to Org?
 You are not choosing blue as your favourite all of a sudden. 
 There must be a lot of events and reasons behind that choice that you may not be aware of.
 You make decisions based on those learnings.
 
-Every decisions, principles and standards of an org must be recorded and provided as a guide to the agent. 
 
-Agents are software systems that autonomously perceive their environment, make decisions, and take actions to achieve goals
+## Harness Engineering
+
+
+Every decisions, principles and standards of an org must be recorded and provided on demand as a guide to the agent. 
+Static analyzer, linter, unit tests etc., as a sensors and loop back the failure to the agent again to fix it.
+
+Agents are software systems that autonomously perceive their environment, make decisions, and take actions to achieve goals.
+
+Move from Prompt to Harness Engineering
+
+Build a deterministic layer around the non-deterministic and probabilistic agents
+
+Turn single-turn answers into an autonomous multi-step execution. 
+
 
 
 ## Final thoughts
