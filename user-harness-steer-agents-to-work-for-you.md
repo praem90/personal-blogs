@@ -24,6 +24,26 @@ end
 Even though the harness has been built on the coding agent, it has a very wide scope. 
 We should narrow it down to work specifically for our case and system.
 
+
+## Why does it matters?
+Person 1: I like blue color.
+Person 2: I like red  but I dont like or dislike blue.
+Person 3: I like dont like blue.
+Person 4: I dont bother about colors.
+
+Assume each one asking their agent to buy a cap for them. 
+The agent may buy a blue color cap randomly to Person 3 where he dont like it. 
+If the agent know their preferences, it might buy the right cap for them. 
+
+Blue for Person 1. 
+Red if possible or blue for Person 2. 
+Anything except blue for Person 3. 
+Any color for Person 4.
+
+
+The next gate would be it should not be damaged. Unless we instruct it to check for damage explicitly it would not. 
+
+
 ```mermaid
 flowchart
 Start
@@ -37,8 +57,8 @@ Damage -. Yes .-> Pick
 Damage -. No .-> E
 ```
 
-
-## Why does it matters?
+The color preference would be feedforward information.
+The damage check is a feedback loop.
 
 ## How to build my Harness? 
 
