@@ -91,10 +91,15 @@ Turn single-turn answers into an autonomous multi-step execution.
 
 
 ## Final thoughts
+The genie is out of its lamp. 
+Everyone is figuring out how can we make use of its power more deterministically and reliably.
+
 Man loading bricks over his head to carry to the top floor
 A man loading bricks to a small crane to move it to the top floor. 
 
-AI is a tool and it does not replace ENGINEERING 
+AI is a tool and it does not replace ENGINEERING.
+
+Learn to harness, orchestrate and steer the agents. 
 
 ## Resources
  - [User Harness](https://martinfowler.com/articles/harness-engineering.html)
