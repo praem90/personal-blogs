@@ -26,10 +26,10 @@ We should narrow it down to work specifically for our case and system.
 
 
 ## Why does it matters?
-Person 1: I like blue color.
-Person 2: I like red  but I dont like or dislike blue.
-Person 3: I like dont like blue.
-Person 4: I dont bother about colors.
+- Person 1: I like blue color.
+- Person 2: I like red  but I dont like or dislike blue.
+- Person 3: I like dont like blue.
+- Person 4: I dont bother about colors.
 
 Assume each one asking their agent to buy a cap for them. 
 The agent may buy a blue color cap randomly to Person 3 where he dont like it. 
@@ -67,16 +67,19 @@ You should not instruct the agent to buy a blue color hat.
 You should provide the environment, principle and guidelines
 The should take the decision
 
-
+https://martinfowler.com/articles/harness-engineering/harness-overview.png
 
 
 
 ## How to scale it to Org?
+You are not choosing blue as your favourite all of a sudden. 
+There must be a lot of events and reasons behind that choice that you may not be aware of.
+You make decisions based on those learnings.
 
-Skill
-Agent Loop
-Agent Orchestration
-Orchestration of Agent Orchestration
+Every decisions, principles and standards of an org must be recorded and provided as a guide to the agent. 
+
+Agents are software systems that autonomously perceive their environment, make decisions, and take actions to achieve goals
+
 
 ## Final thoughts
 Man loading bricks over his head to carry to the top floor
