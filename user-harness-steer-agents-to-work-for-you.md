@@ -24,7 +24,18 @@ end
 Even though the harness has been built on the coding agent, it has a very wide scope. 
 We should narrow it down to work specifically for our case and system.
 
+```mermaid
+flowchart
+Start
+Pick[Pick a blue color cap]
+Damage{Is damaged?}
+E[End]
 
+Start --> Pick
+Pick --> Damage
+Damage -. Yes .-> Pick
+Damage -. No .-> E
+```
 
 
 ## Why does it matters?
